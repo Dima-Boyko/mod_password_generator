@@ -1,0 +1,55 @@
+.ItDix-Generate-Passwords{
+	display: flex;
+	justify-content: start;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+.ItDix-Generate-Passwords .GenPW-Settings{
+	min-width:280px;
+	border: solid 1px #8f8f8f;
+	border-radius: 10px;
+	padding: 10px;
+	margin-right: 20px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5); 
+}
+
+.ItDix-Generate-Passwords .GenPW-Settings .GenPW-button{
+	cursor: pointer;
+	padding: 5px 15px;
+	background: linear-gradient(to top, #00b7ff, #8ad7f5);
+	color: #fff;
+	display: inline-block;
+}
+.ItDix-Generate-Passwords .GenPW-Settings .GenPW-row{
+	margin: 5px 0px;
+}
+
+.ItDix-Generate-Passwords  .GenPW-Passwords_List{
+	min-width:200px;
+	border: solid 1px #8f8f8f;
+	border-radius: 10px;
+	padding: 10px 20px;
+	margin-right: 20px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5); 
+	
+}
+.ItDix-Generate-Passwords  .GenPW-Passwords_List .password{
+	margin: 5px 0px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+}
+.ItDix-Generate-Passwords  .GenPW-Passwords_List .password input{
+	cursor: pointer;
+	border: none;
+	padding: 5px 10px;
+	background: #f7eded;
+	color: #000;
+}
+.ItDix-Generate-Passwords  .GenPW-Passwords_List .password input:hover{
+	background: #333;
+	color: #fff;
+}
+.ItDix-Generate-Passwords #GenPW-copy{
+	display: none;
+}
